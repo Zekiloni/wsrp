@@ -1,0 +1,13 @@
+body{
+	background-color: #fafafa;
+	color: green;
+}
+
+.modal-overlay {height: 100%;width: 100%;position: fixed;top: 0;background: rgb(0 0 0 / 67%);backdrop-filter: blur(5px);}
+.modal-box {width: 50%;height: auto;margin: 0 auto; margin-top: 150px; background-color: #36393f; }
+.modal-title { padding: 10px 20px; width: 100%; display: inline-block; height: auto;  background: url("images/bg_1.png");}
+.modal-title h2 { float: left;  color: white; font-weight: 200; }
+.close-modal {float: right;font-size: 25px;/* padding: 5px 10px; */color: #36393f;border-radius: 5px; transition: all 0.5s ease;}
+.close-modal:hover { cursor: pointer; transform: scale(1.8); }
+.modal-text { padding: 10px 20px; font-size: 18px; color: #cdcdcd;}
+.discord-modal { display: none; height: 100%; width: 100%; position: fixed; top: 0; }
