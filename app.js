@@ -30,7 +30,7 @@ app.get('/contact', function(request,response){
 });
 
 app.listen(3000,function(){
-	console.log('Listening at port 3000...');
+	console.log('[WSRP] Pokrenuta aplikacija. Port 3000..');
 });
 
 app.use(session({
